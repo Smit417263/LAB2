@@ -21,7 +21,7 @@ tests = [ {'description': 'This test will run first.',
     {'description': 'This test will run second.',
     'steps': [ 
         {'inputs': [('PINA',0x00)], 'iterations': 1, 'expected': [('PORTC',0x04)]}, 
-        {'inputs': [('PINA',0x0F)], 'iterations': 1, 'expected': [('PORTC',0x80)]},
+        {'inputs': [('PINA',0x0F)], 'iterations': 1, 'expected': [('PORTC',0x00)]},
         {'inputs': [('PINA',0x0E)], 'iterations': 1, 'expected': [('PORTC',0x01)]},        
          {'inputs': [('PINA',0x03)], 'iterations': 1}, ],
     'expected': [('PORTC',0x02)],

@@ -1,7 +1,7 @@
 /*	Author: spate130
  *  Partner(s) Name: 
  *	Lab Section: 023
- *	Assignment: Lab #2  Exercise #3
+ *	Assignment: Lab #2  Exercise #2
  *	Exercise Description: [optional - include for your own benefit]
  *
  *	I acknowledge all content contained herein, excluding template or example
@@ -36,7 +36,7 @@ int main(void) {
 		cntavail = 1;
 	}
 	else if (tempA == 0x0F){
-		cntavail = 0x80;
+		cntavail = 0x00;
 	}
 
 	PORTC = cntavail;
